@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vertebras</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="./app.js" defer></script>
+</head>
+
+<body>
+
+  <main>
+    <div class="conteudo">
+
+      <a href="../index.html" class="voltar">← Voltar</a>
+
+      <h1>
+        <span>Vertebrados/Invertebrados</span>
+      </h1>
+      <p class="descricao">Informe seus dados para calcular e classificar seu IMC.</p>
+
+      <label>Selecione a classificação</label>
+
+      <select id="tipoVertebra">
+        <option value="" id="opcao1" disabled selected>--Escolha uma opção--</option>
+        <option value="vertebrado">Vertebrado</option>
+        <option value="invertebrado">Invertebrado</option>
+    </select>
+
+      <label>Selecione a classificação</label>
+
+      <select id="classeAnimal">
+        <option value="" id="opcao2" disabled selected>--Escolha uma opção--</option>
+    </select>
+
+      <label>Selecione a classificação</label>
+
+      <select id="alimentacao">
+        <option value="" id="opcao3" disabled selected>--Escolha uma opção--</option>
+    </select>
+
+      <button onclick="resultadoAnimal()">Mostrar resultado</button>
+
+      <div class="resultado" id="resultado"></div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>Kaique Carvalho</p>
+  </footer>
+
+</body>
+
+</html>
